@@ -1,2 +1,2 @@
 # displacify_app2
-Using Displacy in Flask NLP App (Named Entity Recognition with Spacy)
+Using Displacy in Flask NLP App (Named Entity Recognition with Spacy)\n ver.2
