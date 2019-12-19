@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-Flask = "1.1.1"
+Flask = "*"
 
 [requires]
 python_version = "3.6"
