@@ -8,7 +8,9 @@ from spacy import displacy
 from flaskext.markdown import Markdown
 
 # Init NLP object with english model 'en'
-nlp = spacy.load('en_core_web_sm')
+#### nlp = spacy.load('en_core_web_sm') ## OK em localhost
+import en_core_web_sm # Para heroku
+nlp = en_core_web_sm.load()
 
 # Init App
 app = Flask(__name__)
