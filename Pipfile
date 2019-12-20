@@ -9,6 +9,7 @@ verify_ssl = true
 Flask = "*"
 spacy = "*"
 Flask-Markdown = "*"
+en_core_web_sm = "*"
 
 [requires]
 python_version = "3.6"
